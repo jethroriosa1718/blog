@@ -12,7 +12,7 @@ config :blog,
 # Configures the endpoint
 config :blog, Blog.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "7u2m34lbnjVBP860rwZk7WbrplZaikWq6UnyvUlm0lU2AwqDXyJRJHe9K4BTbm4n",
+  secret_key_base: "1gQhG6tjtc8ERKP7bhYbqP9fLNGiOki7P29GWMWY388fZV8saqiGA7ZyQJypDWn6",
   render_errors: [view: Blog.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Blog.PubSub,
            adapter: Phoenix.PubSub.PG2]
